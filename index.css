@@ -2,7 +2,46 @@
 /*1 selecionamosun selector:elemento a dar estilo
 /*2 propiedad 
 /*3 valor asignado a la propiedad*/
+*{font-family: 'Parisienne', cursive;
+    padding: 0;
+    margin: 0;
+    
+}
 
 body{
     background: rgb(131, 94, 165);
+}
+
+header{
+    background: lightcoral;
+    color: rgb(0, 0, 65);
+}
+li{
+    list-style-type: none;
+}
+
+h1{
+    color: bisque;
+}
+.primerParrafo{
+    color:rgb(105, 25, 25);
+    margin-top:  80px; ;
+    border-right:solid red 10px ;
+    border-top: solid 5px black;
+    border-bottom:blueviolet solid 5px;
+    border-left: rgb(233, 199, 210) solid 10px;
+    margin-top: 80px;
+    margin-left: 60px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    padding-left: 100px;
+    padding-top: 100px;
+    padding-right: 80px;
+    padding: bottom 60px; ;
+}
+.segundoParrafo{
+    color: red;
+}
+#selectorId{
+    color: orange;
 }
